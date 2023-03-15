@@ -1,0 +1,70 @@
+body{
+   font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+   display: flex;
+   justify-content: center;
+}
+
+.card{
+  width: 300px; 
+  height: 500px;
+  overflow: hidden;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(229, 231, 236);
+ }
+
+.card-robot{
+   width: 100%;
+   height: 300px;
+   display: flex;
+   flex-direction: column;
+}
+.carlos{
+   display: flex;
+   justify-content: center;
+   position: relative;
+   top: -5em;
+}
+.carlos img{
+   border-radius: 100%;
+   width: 50%;
+   border: 3px solid rgb(255, 255, 255);
+}
+
+.name {
+   text-align: center;
+   align-items: center;
+   flex-direction: column;
+   position: relative;
+   top: -5rem;
+   font-size: 29px;
+   font-weight: 700px;
+
+}
+
+.name p{
+   margin: 0;
+   padding: 0;
+}
+.name p:nth-child(2){
+   font-size: 1rem
+}
+.name p:nth-child(3){
+   margin: 10px;
+   padding: 5px;
+   font-size: 1rem
+}
+
+.socialmedia {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   bottom: 2em;;
+}
+.socialmedia img{
+   display: inline-block;
+   height: 2em;
+   padding: 4px;
+}
